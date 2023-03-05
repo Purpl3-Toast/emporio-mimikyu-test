@@ -191,8 +191,12 @@
         font-style: normal;
         font-size: 20px;
         text-decoration: none;
-        color:black
+        color:black!important
         
+    }
+    .font1 img
+    {
+      height:50px
     }
 
     
@@ -244,13 +248,21 @@
 
   .grandezza
 {
-width: 60%;
-height: 60%;
+width: 80%;
+height: 80%;
 margin:auto;
+
 
 
   }
   
+  .btnn
+  {
+position: relative;
+margin-bottom: 20px;
+margin-top: 0px;
+  }
+}
 
   @media only screen and (max-width: 556px) {
     .titolo
@@ -277,13 +289,37 @@ margin:auto;
   {
    font-size: 2.5rem;
    text-shadow: 20px 20px 20px 20px #000000;
-  
-   
-  
+
   }
+
+  .font1 {
+  
+    font-size: 17px!important;
+  
+    
+}
+.font1 img
+    {
+    
+      height:30px
+    
+    }
+
+    .padham button
+    {
+      padding-top: 5px;
+
+    }
+
+    .toggler-icon
+    {
+      width: 35px!important;
+    }
+
+    .padham
+    {
+      padding:5px 15px 5px 5px!important;
+      
+    }
     
   }
-  
-
-  
-
