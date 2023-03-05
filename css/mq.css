@@ -1,0 +1,325 @@
+
+/* 
+  pc diverse visualizzazioni */
+
+  @media only screen and (max-width: 1886px) {
+
+    .font1 {
+        font-family: 'BambusaW01';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 35px;
+        text-decoration: none;
+        color:black
+        
+    }
+
+    
+        
+    
+    
+  }
+
+
+  @media only screen and (max-width: 1758px) {
+
+    .font1 {
+        font-family: 'BambusaW01';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 30px;
+        text-decoration: none;
+        
+        
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 1690px) {
+
+    .font1 {
+        font-family: 'BambusaW01';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 30px;
+        text-decoration: none;
+        color:black
+        
+    }
+
+    .fsmq
+    {
+        font-size: 25px!important;
+    }
+
+    .padmenu
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.titolo h1
+{
+ font-size: 3.7rem;
+}
+.titolo p
+{
+ font-size: 1.5rem;
+ font-weight: 400;
+ 
+  }
+
+  .titolo2 h1
+{
+  font-size: 3.7rem;
+}  
+
+.titolo2 p
+{
+  font-size: 1.5rem;
+  font-weight: 400;
+    
+}
+
+
+}
+
+  @media only screen and (max-width: 1381px) {
+
+    
+    .fsmq
+    {
+        font-size: 20px!important;
+    }
+
+    .font1 {
+        font-family: 'BambusaW01';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 25px;
+        text-decoration: none;
+        color:black
+        
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 1216px) {
+
+    .font1 {
+        font-family: 'BambusaW01';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 16px;
+        text-decoration: none;
+        color:black
+        
+    }
+    
+    .fsmq
+    {
+        font-size: 15px!important;
+    }
+
+    .titolo h1
+{
+ font-size: 3.4rem;
+
+ 
+
+}
+.titolo p
+{
+ font-size: 1.3rem;
+ font-weight: 400;
+ 
+  }
+
+  .titolo
+  {
+    padding-right: 3rem;
+  }
+
+  .titolo2 h1
+  {
+    font-size: 3rem;
+  }  
+  
+  .titolo2 p
+  {
+    font-size: 1.3rem;
+ font-weight: 400;
+      
+  }
+  
+    
+    
+  }
+
+  
+/* 
+  FINE pc diverse visualizzazioni */
+
+  
+/* 
+  MOBILE diverse visualizzazioni */
+
+
+  @media only screen and (max-width: 991px) {
+  
+    .nascondi
+    {
+        display: none!important;
+        
+    }
+
+    .mostra
+    {
+        display: block!important;
+    }
+
+    .fsmq
+    {
+        font-size: 25px!important;
+    }
+
+    .font1 {
+        font-family: 'BambusaW01';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 20px;
+        text-decoration: none;
+        color:black!important
+        
+    }
+    .font1 img
+    {
+      height:50px
+    }
+
+    
+
+    .titolo
+    {width: 70%;}
+    .titolo0
+    {width: 20%;}
+    .titolo01
+    {width: 10%;}
+
+    .titolo p
+{
+ font-size: 1.6rem;
+ font-weight: 400;
+ 
+  }
+
+  .titolo
+  {
+    padding-right: 3rem;
+  }
+
+  .titolo2 h1
+  {
+    font-size: 2.4rem;
+  }  
+  
+  .titolo2 p
+  {
+    font-size: 1.2rem;
+ font-weight: 400;
+      
+  }
+    
+  .secondo
+  {
+    display: block;
+    
+  }
+
+  .titolo2
+  {
+    padding-top: 3rem;
+    
+    
+  }
+  
+
+  .grandezza
+{
+width: 80%;
+height: 80%;
+margin:auto;
+
+
+
+  }
+  
+  .btnn
+  {
+position: relative;
+margin-bottom: 20px;
+margin-top: 0px;
+  }
+}
+
+  @media only screen and (max-width: 556px) {
+    .titolo
+    {width: 100%;}
+    .titolo0
+    {width: 0%!important;}
+    .titolo01
+    {width: 0%;}
+
+    .titolo p
+{
+ font-size: 1rem;
+ font-weight: 300;
+ text-shadow: 20px 20px 20px 20px #000000;
+ 
+  }
+
+  .titolo
+  {
+    padding-right: 20px;
+  }
+
+  .titolo h1
+  {
+   font-size: 2.5rem;
+   text-shadow: 20px 20px 20px 20px #000000;
+
+  }
+
+  .font1 {
+  
+    font-size: 17px!important;
+  
+    
+}
+.font1 img
+    {
+    
+      height:30px
+    
+    }
+
+    .padham button
+    {
+      padding-top: 5px;
+
+    }
+
+    .toggler-icon
+    {
+      width: 35px!important;
+    }
+
+    .padham
+    {
+      padding:5px 15px 5px 5px!important;
+      
+    }
+    
+  }
