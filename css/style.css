@@ -231,7 +231,7 @@ text-align: center;
     }
     .border1:after {
         
-        background: linear-gradient(-45deg, #fffff6 10px, transparent 0), linear-gradient(45deg, #fffff6 10px, transparent 0);
+        background: linear-gradient(-45deg, #fffff6 10px, white 0), linear-gradient(45deg, #fffff6 10px, transparent 0);
         background-position: left bottom;
         background-repeat: repeat-x;
         background-size: 12px 32px;
@@ -258,10 +258,49 @@ text-align: center;
         display: block;
         position: absolute;
         top: 0px;
+        z-index: 1;
         left: 0px;
         width: 100%;
         height: 25px;
     }
+
+    .border3 {
+        position: relative;
+        
+    }
+
+    .border3:after {
+        background: linear-gradient(135deg,#fffff6 10px,transparent 0%), linear-gradient(-135deg,#fffff6 10px,
+        transparent 0%);
+        /* background: linear-gradient(-45deg, #ffffff 10px, transparent 0), linear-gradient(45deg, #ffffff 10px, transparent 0); */
+        background-position: left top;
+        background-repeat: repeat-x;
+        background-size: 12px 32px;
+        content: " ";
+        z-index: 1;
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 25px;
+    }
+
+    .border3::before {
+        
+        background: linear-gradient(-45deg, #fffff6 10px, transparent 0), linear-gradient(45deg, #fffff6 10px, transparent 0);
+        background-position: left bottom;
+        background-repeat: repeat-x;
+        background-size: 12px 32px;
+        content: " ";
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 25px;
+    }
+
 
     /* zigzag menu */
     
@@ -283,6 +322,29 @@ text-align: center;
   
 /* fine separatori zig zag */
 
+/* inizio ditto */
 
+.ditto
+{
+    width: 100%;
+    display: flex;
+    
+    margin: auto;
+    padding-top: 55rem!important ;
+    background-image: url("../image/sez3img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ditto div img
+{
+width: 50%;
+}
+
+.ditrow
+{
+   
+}
 
 
