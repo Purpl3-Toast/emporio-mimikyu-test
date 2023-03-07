@@ -262,7 +262,54 @@ position: relative;
 margin-bottom: 20px;
 margin-top: 0px;
   }
+
+  .cub-2 {
+    transform:translate3D(12em, 0em, 1.5625em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    animation: rotateAnimation 7s linear infinite;
+    margin:8em 0 0 0em;
+    opacity:1;
+    width:5em;
+    height:7em;
+    
+  }
+
+  .cub-1 {
+    transform:translate3D(3em, 0em, 1.5em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    animation: rotateAnimation 7s linear infinite;
+    margin:8em 0 0 -10em;
+    opacity:1;
+    width:5em;
+    height:7em;
+    
+  }
+
+  #tridiv{
+    height: 101%;
+  }
+
+  .ditto
+  {
+    margin-top: 25rem!important;
+    z-index: 1!important;
+    display: none!important;
+  }
+
+  .ditto2
+  {
+    margin-top: 30rem!important;
+    z-index: 1!important;
+    display: block;
+  }
+
+  .scene {
+    
+    margin: -45em 0 0 -38em;
+    
+
+
+
 }
+  }
 
   @media only screen and (max-width: 556px) {
     .titolo
